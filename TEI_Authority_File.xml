@@ -47,6 +47,21 @@
                Consortium's Board of Directors.</note>
          </person>
 
+		
+		  <!-- Add in a new person but be aware, your XML isn't being 
+		  checked for validity/wellformedness -->
+         <person xml:id="testperson001">
+            <persName>Your Name</persName>
+            <!-- You could of course have any of: affiliation age birth death 
+               education event faith floruit gender langKnowledge listEvent 
+               nationality occupation persName persPronouns persona 
+               residence sex socecStatus state trait  -->
+            <affiliation>Your affiliation</affiliation>
+            <occupation>Your occupaion</occupation>
+            <nationality>Your nationality</nationality>
+            <note>Project notes about you</note>
+         </person>   
+           
       </listPerson>
 
       <!-- Place entities are stored in a <listPlace> element -->
